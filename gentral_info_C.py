@@ -140,7 +140,4 @@ for i in local_authorities:
             print(f"Failed to retrieve the target webpage. Status code: {target_response.status_code}")
     else:
         print("Login failed. Please check your credentials.")
-
-
-       
-
+driver.quit()
